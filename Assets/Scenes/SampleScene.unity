@@ -269,7 +269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b8a4c27d5cd5474ba9fc30dd99eb27b, type: 2}
+  - {fileID: 2100000, guid: ed86da3e23437614e8c69cd6baf1fdc0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -312,7 +312,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835143024
 GameObject:
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 835143026}
   - component: {fileID: 835143025}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -381,7 +381,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a199de0aca2a6dc46951fdc89e71c8c6, type: 2}
+  - {fileID: 2100000, guid: 56da87b128f47e3488665a8d5bc41463, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -519,7 +519,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4759173655706887632, guid: e1fd30a87ff991a40bcb0f05f3383295, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4759173655706887632, guid: e1fd30a87ff991a40bcb0f05f3383295, type: 3}
       propertyPath: m_LocalScale.x
@@ -535,7 +535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4759173655706887632, guid: e1fd30a87ff991a40bcb0f05f3383295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.4
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 4759173655706887632, guid: e1fd30a87ff991a40bcb0f05f3383295, type: 3}
       propertyPath: m_LocalPosition.z
@@ -573,6 +573,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: eb06412477f9af046ae0dec289a96d25, type: 2}
+    - target: {fileID: 4759173655706887636, guid: e1fd30a87ff991a40bcb0f05f3383295, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759173655706887636, guid: e1fd30a87ff991a40bcb0f05f3383295, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 4759173655706887639, guid: e1fd30a87ff991a40bcb0f05f3383295, type: 3}
       propertyPath: m_Name
       value: 'Player(Name: Box)'
