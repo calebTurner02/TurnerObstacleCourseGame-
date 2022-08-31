@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663843555}
   m_LocalRotation: {x: -0.006132766, y: 0.7156757, z: -0.0063913865, w: 0.6983766}
-  m_LocalPosition: {x: -36.4, y: 5.2, z: 13.8}
+  m_LocalPosition: {x: -36.5, y: 5.2, z: 13.8}
   m_LocalScale: {x: 35.114937, y: 10.773642, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -697,8 +697,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.14983726, y: 0.007131807, z: 0.008487379, w: 0.9886486}
-  m_LocalPosition: {x: -13.2, y: 36.800003, z: -16.699995}
+  m_LocalRotation: {x: 0.07314499, y: -0.7082341, z: 0.045576397, w: 0.70069766}
+  m_LocalPosition: {x: 20.400003, y: 31.2, z: 11.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -801,15 +801,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450938968}
-  m_LocalRotation: {x: 0.14983727, y: 0.007131807, z: 0.00848738, w: 0.9886486}
-  m_LocalPosition: {x: -13.2, y: 36.800003, z: -16.699995}
+  m_LocalRotation: {x: 0.07314499, y: -0.7082341, z: 0.045576397, w: 0.70069766}
+  m_LocalPosition: {x: 20.400003, y: 31.2, z: 11.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2105858662}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 17.227, y: 0.999, z: 1.135}
+  m_LocalEulerAnglesHint: {x: 9.617, y: -90.807, z: -2.31}
 --- !u!4 &1642187809 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4759173655706887632, guid: e1fd30a87ff991a40bcb0f05f3383295, type: 3}
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: -1.4211476, y: 25.738182, z: 3.4355576}
+  m_TrackedObjectOffset: {x: 27.942286, y: 30.022093, z: -1.8808835}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -968,7 +968,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 35.46094
+  m_CameraDistance: 3.6986535
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
